@@ -1,0 +1,45 @@
+body{
+    background-color:#a8d8e6 ;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container{
+    max-width: 900px;
+    background-color: #c3e5eb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+img{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    max-width: 40%;
+    height: auto;
+}
+
+.float-left{
+    float: left;
+    margin: 15px;
+}
+
+.float-right{
+    float: right;
+    margin: 15px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
